@@ -1,0 +1,28 @@
+{
+  "name": "keyhoang/sis-model-common",
+  "description": "Laravel Sis Model Common",
+  "keywords": [
+    "toprate",
+    "api"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^6.0|^7.0|^7.3|^7.4|^8.0",
+    "yaangvu/laravel-base": "^1.1",
+    "yaangvu/laravel-consul": "^1.0",
+    "yaangvu/laravel-rabbitmq": "^1.0",
+    "yaangvu/laravel-aws": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Hoang Ky",
+      "email": "hoangky1705@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "keyhoang\\sis-model-common\\": "/src"
+    }
+  }
+}
